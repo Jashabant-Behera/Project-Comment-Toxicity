@@ -1,8 +1,42 @@
+# Virtual Environment (Root-level)
+Scripts/
+Lib/
+Include/
+share/
+etc/
+pyvenv.cfg
+
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
 .ipynb_checkpoints/
-ENV/
-venv/
-.env
-*.h5
-*.pkl
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (Exclude large files)
+data/raw/*.csv
+data/processed/*.npy
+data/processed/*.npz
+data/processed/*.csv
+
+# Models (Exclude artifacts)
+models/*.h5
+models/*.keras
+models/*.pickle
+models/*.pkl
+
+# Results
+results/*.png
+results/*.txt
+*.log
+
+# System
+Thumbs.db
+.DS_Store

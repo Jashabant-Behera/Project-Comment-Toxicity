@@ -27,10 +27,10 @@ data/processed/*.npz
 data/processed/*.csv
 
 # Models (Exclude artifacts)
-models/*.h5
-models/*.keras
-models/*.pickle
-models/*.pkl
+# models/*.h5
+# models/*.keras
+# models/*.pickle
+# models/*.pkl
 
 # Results
 results/*.png
